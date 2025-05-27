@@ -42,8 +42,25 @@ export default function AboutSection() {
 
         {/* Main content grid */}
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center mb-20">
-          {/* Text content */}
-          <div className="space-y-8">
+          {/* Image - appears first on mobile, second on desktop */}
+          <div className="relative order-1 lg:order-2">
+            <div className="aspect-[4/5] bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl overflow-hidden">
+              <Image
+                src={profileImg.src}
+                alt="Amit Khanal - Photographer"
+                width={400}
+                height={500}
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            {/* Decorative frame */}
+            <div className="absolute -inset-4 border-2 border-gray-200 rounded-3xl -z-10"></div>
+            <div className="absolute -inset-8 border border-gray-100 rounded-3xl -z-20"></div>
+          </div>
+
+          {/* Text content - appears second on mobile, first on desktop */}
+          <div className="space-y-8 order-2 lg:order-1">
             <p className="text-xl md:text-2xl text-gray-600 font-light leading-relaxed">
               I&apos;m Amit Khanal, a passionate visual storyteller with over 4
               years of experience in photography and videography.
@@ -74,23 +91,6 @@ export default function AboutSection() {
                 <div className="w-2 h-2 bg-white rounded-full group-hover:scale-150 transition-transform duration-300"></div>
               </a>
             </div>
-          </div>
-
-          {/* Image placeholder */}
-          <div className="relative">
-            <div className="aspect-[4/5] bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl overflow-hidden">
-              <Image
-                src={profileImg.src}
-                alt="Amit Khanal - Photographer"
-                width={400}
-                height={500}
-                className="w-full h-full object-cover"
-              />
-            </div>
-
-            {/* Decorative frame */}
-            <div className="absolute -inset-4 border-2 border-gray-200 rounded-3xl -z-10"></div>
-            <div className="absolute -inset-8 border border-gray-100 rounded-3xl -z-20"></div>
           </div>
         </div>
 

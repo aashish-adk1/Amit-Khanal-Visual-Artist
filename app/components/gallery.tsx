@@ -251,12 +251,12 @@ const GallerySection = () => {
         </div>
 
         <div className="flex justify-center mb-12">
-          <div className="bg-white rounded-full p-2 shadow-lg">
+          <div className="bg-white rounded-full p-1.5 shadow-lg">
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-6 py-2 rounded-full transition-all duration-300 ${
+                className={`px-3 py-1.5 sm:px-6 sm:py-2 rounded-full transition-all duration-300 text-sm sm:text-base ${
                   selectedCategory === category
                     ? 'bg-gray-900 text-white'
                     : 'text-gray-600 hover:text-gray-900'
