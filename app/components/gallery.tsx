@@ -168,7 +168,7 @@ const GallerySection = () => {
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1494790108755-2616c668bc04?w=800&h=600&fit=crop",
+      src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=600&fit=crop",
       category: "Portrait",
       title: "Professional Headshot",
       description: "Studio portrait session with dramatic lighting and professional styling"
