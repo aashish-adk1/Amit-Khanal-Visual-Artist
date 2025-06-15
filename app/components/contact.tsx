@@ -219,10 +219,10 @@ const ContactSection = () => {
                   <div>
                     <p className="font-semibold">Email</p>
                     <a
-                      href="mailto:amitskhanal911@gmail.com"
+                      href="mailto:example@gmail.com"
                       className="text-gray-300 hover:text-blue-400 cursor-pointer transition-colors duration-200"
                     >
-                      amitskhanal911@gmail.com
+                      example@gmail.com
                     </a>
                   </div>
                 </div>
@@ -231,10 +231,10 @@ const ContactSection = () => {
                   <div>
                     <p className="font-semibold">Phone</p>
                     <a
-                      href="tel:+9779863642384"
+                      href="tel:1234567890"
                       className="text-gray-300 hover:text-green-400 cursor-pointer transition-colors duration-200"
                     >
-                      +977-9863642384
+                      1234567890
                     </a>
                   </div>
                 </div>
@@ -245,13 +245,13 @@ const ContactSection = () => {
               <h4 className="text-lg font-semibold mb-4">Follow My Work</h4>
               <div className="flex gap-4">
                 <SocialLink
-                  href="https://www.facebook.com/starkameet1998"
+                  href="#"
                   className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
                 >
                   <Facebook size={24} />
                 </SocialLink>
                 <SocialLink
-                  href="https://www.instagram.com/kunaaaalll.k/"
+                  href="#"
                   className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
                 >
                   <Instagram size={24} />
