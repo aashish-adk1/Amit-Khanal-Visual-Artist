@@ -33,7 +33,7 @@ export default function HomeSection() {
                 <div className="text-center sm:mx-auto lg:mx-auto max-w-4xl">
                   
                   {/* Enhanced badge - smaller on mobile */}
-                  <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-8 sm:mb-12">
+                  <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-8 sm:mb-12 mt-20 sm:mt-0">
                     <div className="bg-white/20 backdrop-blur-sm rounded-full p-1.5 sm:p-2">
                       <Aperture className="size-3 sm:size-4 text-white" />
                     </div>
