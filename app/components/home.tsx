@@ -22,11 +22,11 @@ export default function HomeSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-black/20 to-transparent"></div>
 
-        <header className="relative z-10">
+        <header className="relative z-0">
           <Navbar />
         </header>
         
-        <main className="relative z-10 flex items-center min-h-screen">
+        <main className="relative z-0 flex items-center min-h-screen">
           <section className="relative w-full">
             <div className="relative py-16 sm:py-24 md:py-32 lg:py-40">
               <div className="mx-auto max-w-6xl px-4 sm:px-6 md:px-12">
